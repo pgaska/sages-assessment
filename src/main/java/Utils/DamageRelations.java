@@ -9,7 +9,7 @@ public class DamageRelations {
         this.noDamageTypes = noDamageTypes;
     }
 
-    ArrayList<String> doubleDamageTypes;
-    ArrayList<String> halfDamageTypes;
-    ArrayList<String> noDamageTypes;
+    public ArrayList<String> doubleDamageTypes;
+    public ArrayList<String> halfDamageTypes;
+    public ArrayList<String> noDamageTypes;
 }

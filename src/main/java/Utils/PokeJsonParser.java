@@ -46,10 +46,6 @@ public class PokeJsonParser {
                     .getAsString());
         }
 
-        System.out.println(doubleDamageTypes);
-        System.out.println(halfDamageTypes);
-        System.out.println(noDamageTypes);
-
         return new DamageRelations(doubleDamageTypes, halfDamageTypes, noDamageTypes);
     }
 }
